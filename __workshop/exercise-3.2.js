@@ -6,7 +6,7 @@ require("dotenv").config();
 
 const getPositionFromAddress = (address) => {
   const requestObj = {
-    key: "985b53e437d84cf4afcced8146c75121",
+    key: "OPENCAGE_API_KEY",
     q: address,
   };
 
